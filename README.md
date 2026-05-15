@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio">
-    <img src="images/banner-logo.png" alt="Logo" width="800">
+    <img src="images/banner-logo.svg" alt="Logo" width="400">
   </a>
 
   <h3 align="center">Home server companion</h3>
