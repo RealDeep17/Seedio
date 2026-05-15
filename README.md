@@ -55,6 +55,9 @@
 
 ## About The Project
 
+> [!IMPORTANT]
+> **Seedio** is a lean, optimized, and performance-tuned fork of [Autolycus](https://github.com/algofly-oss/autolycus).
+
 **Note:**
 
 - This project started as a personal project to learn about react and docker. This was my first time working with react so the code might not be the best, I have certainly learned a lot from this project and maintaining or updating it is just too much work for me, so I have decided to open source it.
@@ -158,7 +161,7 @@ Distributed under the GNU General Public License v3.0. See [LICENSE](LICENSE.txt
 
 ## Contact
 
-Nitin Rai - [@imneonizer](https://www.linkedin.com/in/imneonizer/) - mneonizer@gmail.com
+Deepanshu Kumar - liquidated17@outlook.com
 
 Project Link: [https://github.com/[YOUR_GITHUB_USERNAME]/seedio](https://github.com/[YOUR_GITHUB_USERNAME]/seedio)
 
