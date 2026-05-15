@@ -10,7 +10,7 @@
     <img src="images/banner-logo.svg" alt="Logo" width="400">
   </a>
 
-  <h3 align="center">Home server companion</h3>
+  <h3 align="center">Seedio — A Seedr-like home server companion</h3>
 
   <p align="center">
     stream torrent files from hosted web servers remotely!
@@ -57,7 +57,7 @@
 > **Seedio** is a lean, optimized, and performance-tuned fork of [Autolycus](https://github.com/algofly-oss/autolycus).
 
 **Note:**
-- Seedio is built to provide a seamless remote streaming experience for torrent content.
+- Seedio is built to provide a Seedr-like experience on your own hardware, enabling seamless remote downloading and streaming of torrent content.
 - This version features an updated libtorrent module with increased connection threads for significantly faster download speeds.
 - The UI is optimized for responsiveness across all devices.
 
