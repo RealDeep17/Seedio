@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className={colorScheme}>
       <Toaster />
       <Head>
-        <title>Autolycus</title>
+        <title>Seedio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link rel="manifest" href="/manifest.json" />

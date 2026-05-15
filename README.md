@@ -7,7 +7,7 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/algofly-oss/autolycus">
+  <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio">
     <img src="images/banner-logo.png" alt="Logo" width="800">
   </a>
 
@@ -16,14 +16,14 @@
   <p align="center">
     stream torrent files from hosted web servers remotely!
     <br />
-    <a href="https://github.com/algofly-oss/autolycus"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://youtu.be/iPUBuC5M-bI">View Demo</a>
     ·
-    <a href="https://github.com/algofly-oss/autolycus/issues">Report Bug</a>
+    <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/algofly-oss/autolycus/issues">Request Feature</a>
+    <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues">Request Feature</a>
   </p>
 </p>
 
@@ -103,7 +103,7 @@ This project is focused to run on server environment hence docker containers are
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/algofly-oss/autolycus.git
+   git clone https://github.com/[YOUR_GITHUB_USERNAME]/seedio.git
    ```
 3. Create `.env` file inside the project root folder, add the following to it (refer `env.example`)
    ```sh
@@ -134,7 +134,7 @@ This project is focused to run on server environment hence docker containers are
 
 ## Roadmap
 
-See the [open issues](https://github.com/algofly-oss/autolycus/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -160,20 +160,20 @@ Distributed under the GNU General Public License v3.0. See [LICENSE](LICENSE.txt
 
 Nitin Rai - [@imneonizer](https://www.linkedin.com/in/imneonizer/) - mneonizer@gmail.com
 
-Project Link: [https://github.com/algofly-oss/autolycus](https://github.com/algofly-oss/autolycus)
+Project Link: [https://github.com/[YOUR_GITHUB_USERNAME]/seedio](https://github.com/[YOUR_GITHUB_USERNAME]/seedio)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/algofly-oss/autolycus.svg?style=for-the-badge
-[contributors-url]: https://github.com/algofly-oss/autolycus/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/algofly-oss/autolycus.svg?style=for-the-badge
-[forks-url]: https://github.com/algofly-oss/autolycus/network/members
-[stars-shield]: https://img.shields.io/github/stars/algofly-oss/autolycus.svg?style=for-the-badge
-[stars-url]: https://github.com/algofly-oss/autolycus/stargazers
-[issues-shield]: https://img.shields.io/github/issues/algofly-oss/autolycus.svg?style=for-the-badge
-[issues-url]: https://github.com/algofly-oss/autolycus/issues
-[license-shield]: https://img.shields.io/github/license/algofly-oss/autolycus.svg?style=for-the-badge
-[license-url]: https://github.com/algofly-oss/autolycus/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/[YOUR_GITHUB_USERNAME]/seedio.svg?style=for-the-badge
+[contributors-url]: https://github.com/[YOUR_GITHUB_USERNAME]/seedio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/[YOUR_GITHUB_USERNAME]/seedio.svg?style=for-the-badge
+[forks-url]: https://github.com/[YOUR_GITHUB_USERNAME]/seedio/network/members
+[stars-shield]: https://img.shields.io/github/stars/[YOUR_GITHUB_USERNAME]/seedio.svg?style=for-the-badge
+[stars-url]: https://github.com/[YOUR_GITHUB_USERNAME]/seedio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/[YOUR_GITHUB_USERNAME]/seedio.svg?style=for-the-badge
+[issues-url]: https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues
+[license-shield]: https://img.shields.io/github/license/[YOUR_GITHUB_USERNAME]/seedio.svg?style=for-the-badge
+[license-url]: https://github.com/[YOUR_GITHUB_USERNAME]/seedio/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/imneonizer/

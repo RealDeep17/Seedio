@@ -41,7 +41,7 @@ export default function UserHome() {
           }}
         >
           <BiMeteor size={40} />
-          <p className="font-bold md:text-lg">Autolycus</p>
+          <p className="font-bold md:text-lg">Seedio</p>
         </div>
         <UserNavBar tab={tab} setTab={setTab} />
       </div>

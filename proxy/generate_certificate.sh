@@ -6,4 +6,4 @@ openssl req -newkey rsa:4096 \
     -nodes \
     -out certificate/server.crt \
     -keyout certificate/server.key \
-    -subj "/C=SI/ST=Ljubljana/L=Ljubljana/O=Security/OU=IT Department/CN=www.autolycus.com"
+    -subj "/C=SI/ST=Ljubljana/L=Ljubljana/O=Security/OU=IT Department/CN=www.seedio.com"

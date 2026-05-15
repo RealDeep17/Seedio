@@ -7,7 +7,7 @@ import celery_worker
 
 API_ROOT = "/api"
 app = FastAPI(
-    title="Autolycus API",
+    title="Seedio API",
     swagger_ui_parameters={"defaultModelsExpandDepth": -1},
     version="0.1.0",
     docs_url=f"{API_ROOT}/docs",

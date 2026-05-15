@@ -3,7 +3,7 @@ version: "3.8"
 services:
   mongodb:
     image: mongo:5.0
-    container_name: autolycus_mongodb
+    container_name: seedio_mongodb
     ports:
       - ${MONGO_HOST_PORT_MAP:-27017}:27017
     env_file:
@@ -12,11 +12,11 @@ services:
       - ./volumes/mongodb:/data/db
     restart: always
     networks:
-      - autolycus_network
+      - seedio_network
 
   redis:
     image: redis:6.2-alpine
-    container_name: autolycus_redis
+    container_name: seedio_redis
     command: redis-server --save 20 1 --loglevel warning --requirepass ${REDIS_PASSWORD}
     env_file:
       - ./.env
@@ -24,31 +24,31 @@ services:
       - ./volumes/redis:/data
     restart: always
     networks:
-      - autolycus_network
+      - seedio_network
 
   tor:
     image: dockage/tor-privoxy:latest
-    container_name: autolycus_tor
+    container_name: seedio_tor
     restart: always
     ports:
       - ${TOR_HOST_PORT_MAP:-9050}:9050
     networks:
-      - autolycus_network
+      - seedio_network
 
   flaresolverr:
     image: ghcr.io/flaresolverr/flaresolverr:latest
-    container_name: autolycus_flaresolverr
+    container_name: seedio_flaresolverr
     environment:
       - LOG_LEVEL=info
       - LOG_HTML=false
       - CAPTCHA_SOLVER=none
     restart: always
     networks:
-      - autolycus_network
+      - seedio_network
 
   jackett:
     image: lscr.io/linuxserver/jackett:latest
-    container_name: autolycus_jackett
+    container_name: seedio_jackett
     environment:
       - PUID=1000
       - PGID=1000
@@ -62,14 +62,14 @@ services:
     ports:
       - ${JACKETT_HOST_PORT_MAP:-9117}:9117
     networks:
-      - autolycus_network
+      - seedio_network
 
   api:
     build:
       context: ./api
       dockerfile: Dockerfile
-    image: autolycus_api
-    container_name: autolycus_api
+    image: seedio_api
+    container_name: seedio_api
     environment:
       - API_DEBUG=True
     env_file:
@@ -82,14 +82,14 @@ services:
       - redis
       - mongodb
     networks:
-      - autolycus_network
+      - seedio_network
 
   ui:
     build:
       context: ./ui
       dockerfile: Dockerfile
-    image: autolycus_ui_dev
-    container_name: autolycus_ui_dev
+    image: seedio_ui_dev
+    container_name: seedio_ui_dev
     env_file:
       - ./.env
     environment:
@@ -100,11 +100,11 @@ services:
     depends_on:
       - api
     networks:
-      - autolycus_network
+      - seedio_network
 
   proxy:
     image: nginx:1.19-alpine
-    container_name: autolycus_proxy
+    container_name: seedio_proxy
     environment:
       - API_ADDRESS=api:8080
       - UI_ADDRESS=ui:3000
@@ -122,8 +122,8 @@ services:
       - api
       - ui
     networks:
-      - autolycus_network
+      - seedio_network
 
 networks:
-  autolycus_network:
-    name: autolycus_network
+  seedio_network:
+    name: seedio_network
