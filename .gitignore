@@ -1,5 +1,15 @@
 data/
 volumes/
 downloads/
-.env
+.env*
 certificate/
+*.pem
+*.key
+*.pub
+auth.json
+secrets/
+**/*.local
+.DS_Store
+node_modules/
+__pycache__/
+*.log
