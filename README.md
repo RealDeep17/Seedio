@@ -6,7 +6,7 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio">
+  <a href="https://github.com/RealDeep17/Seedio">
     <img src="images/banner-logo.svg" alt="Logo" width="400">
   </a>
 
@@ -15,13 +15,13 @@
   <p align="center">
     stream torrent files from hosted web servers remotely!
     <br />
-    <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RealDeep17/Seedio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <br />
-    <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues">Report Bug</a>
+    <a href="https://github.com/RealDeep17/Seedio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues">Request Feature</a>
+    <a href="https://github.com/RealDeep17/Seedio/issues">Request Feature</a>
   </p>
 </p>
 
