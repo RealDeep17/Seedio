@@ -2,7 +2,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 
@@ -19,8 +18,7 @@
     <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://youtu.be/iPUBuC5M-bI">View Demo</a>
-    ·
+    <br />
     <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues">Report Bug</a>
     ·
     <a href="https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues">Request Feature</a>
@@ -59,14 +57,9 @@
 > **Seedio** is a lean, optimized, and performance-tuned fork of [Autolycus](https://github.com/algofly-oss/autolycus).
 
 **Note:**
-
-- This project started as a personal project to learn about react and docker. This was my first time working with react so the code might not be the best, I have certainly learned a lot from this project and maintaining or updating it is just too much work for me, so I have decided to open source it.
-
-- I have been using [qBittorrent](https://www.qbittorrent.org/) for a long time now, but I always felt that it was missing something, I wanted to be able to stream the content from my server remotely, so I decided to build this application.
-
-- Currently this project sends a get request at fixed intervals to get the updates, that's not the best way to do it, I will be using web sockets to get real time updates.
-
-- The libtorrent module in this repository is now updated to use more connection threads, so that the download speed is increased (Make sure to use full magnet uri which also includes the trackers).
+- Seedio is built to provide a seamless remote streaming experience for torrent content.
+- This version features an updated libtorrent module with increased connection threads for significantly faster download speeds.
+- The UI is optimized for responsiveness across all devices.
 
 ![App Home](images/mobile-views-combined.png)
 
@@ -178,5 +171,3 @@ Project Link: [https://github.com/[YOUR_GITHUB_USERNAME]/seedio](https://github.
 [issues-url]: https://github.com/[YOUR_GITHUB_USERNAME]/seedio/issues
 [license-shield]: https://img.shields.io/github/license/[YOUR_GITHUB_USERNAME]/seedio.svg?style=for-the-badge
 [license-url]: https://github.com/[YOUR_GITHUB_USERNAME]/seedio/blob/main/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/imneonizer/
