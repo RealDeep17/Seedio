@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .light-scrollbar::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  .light-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .light-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #e5e7eb;
+    border-radius: 1em;
+  }
+
+  .dark-scrollbar::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  .dark-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .dark-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #323236;
+    border-radius: 1em;
+  }
+
+  .touch-scroll {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .bg-light {
+    background-color: #f0f0ef;
+  }
+
+  .bg-dark {
+    background-color: #27272a;
+  }
+}
+
+@keyframes bubble-reorder {
+  from {
+    opacity: 0.6;
+    transform: translateY(-4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.bubble-reorder > button {
+  animation: bubble-reorder 200ms ease;
+}

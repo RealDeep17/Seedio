@@ -1,0 +1,12 @@
+motor
+pymongo
+redis
+fastapi
+uvicorn[standard]
+python-socketio[asyncio]
+python-multipart
+requests[socks]
+beautifulsoup4
+fake-useragent
+celery
+httpx

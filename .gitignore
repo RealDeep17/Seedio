@@ -1,0 +1,5 @@
+data/
+volumes/
+downloads/
+.env
+certificate/
