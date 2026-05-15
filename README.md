@@ -99,7 +99,7 @@ This project is focused to run on server environment hence docker containers are
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/[YOUR_GITHUB_USERNAME]/seedio.git
+   git clone https://github.com/RealDeep17/Seedio
    ```
 3. Create `.env` file inside the project root folder, add the following to it (refer `env.example`)
    ```sh
